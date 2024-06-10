@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-roboto min-h-screen w-full
+  }
+}
+
+@layer components {
+
+}
+
+@layer utilities {
+
+}
