@@ -25,3 +25,50 @@ git clone https://github.com/Thenam2kx/Structure-Vanilla-Php.git
 4. truy cập (http://localhost:8000)
 
 ```
+
+Structure-Vanilla-Php/
+│
+├── node_modules/
+├── frontend/
+│   ├── public/
+│   │   ├── images/
+│   │   ├── index.html
+│   │   ├── product.html
+│   │   ├── cart.html
+│   │   └── checkout.html
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── main.js
+│   │   ├── style.css
+│   ├── .gitignore
+│   ├── .prettierrc
+│   ├── index.html
+│   ├── jsconfig.json
+│   ├── package.json
+│   ├── postcss.config.js
+│   ├── tailwind.config.js
+│   ├── vite.config.js
+│   ├── yarn.lock
+│
+├── backend/
+│   ├── src/
+│   │   ├── controllers/
+│   │   │   ├── ProductController.php
+│   │   │   ├── CartController.php
+│   │   │   └── UserController.php
+│   │   ├── models/
+│   │   │   ├── ProductModel.php
+│   │   │   ├── CartModel.php
+│   │   │   └── UserModel.php
+│   │   ├── views/
+│   │   │   ├── home.php
+│   │   │   ├── product.php
+│   │   │   ├── cart.php
+│   │   │   └── checkout.php
+│   │   └── index.php
+│   ├── vendor/
+│   │   └── autoload.php
+│   ├── .htaccess
+│   ├── composer.json
+│   ├── index.php
